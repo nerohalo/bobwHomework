@@ -1,0 +1,80 @@
+{
+  "name": "bobw-homework",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-calendar": "^3.5.0",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "typesafe-actions": "^5.1.0",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "INLINE_RUNTIME_CHUNK=false GENERATE_SOURCEMAP=false react-scripts build",
+    "lint": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "check:codestyle:js": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "check:codestyle:scss": "stylelint \"src/**/*.scss\"",
+    "lang": "fetch-lang export -p 376225 -d src/locales -t 0713e1a25001a89e68cda731bc0660f3 --flat",
+    "stylelint": "stylelint \"src/**/*.scss\"",
+    "typecheck": "tsc --noEmit",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "clearMocks": true
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-calendar": "^3.4.3",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/redux-mock-store": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.7.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "redux-devtools": "^3.7.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.43.4",
+    "stylelint": "^14.0.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0",
+    "typescript": "^4.2.4"
+  },
+  "proxy": "http://localhost:9000"
+}
